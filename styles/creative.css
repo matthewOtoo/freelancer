@@ -1,0 +1,43 @@
+.allcreative_work {
+  background-color: #040f28;
+  padding: 4rem 1rem;
+}
+
+.creative_sentence1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 1.125rem;
+}
+.creative_sentence2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 0.675rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.creative_unnsplash {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.creative_unnsplash img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .creative_sentence2 {
+    font-size: 0.875rem;
+    width: 26.063rem;
+    margin-left: 20rem;
+  }
+  .creative_unnsplash {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .allcreative_work {
+    padding: 6.875rem 7.5rem;
+  }
+}

@@ -1,3 +1,56 @@
-header{
-display: none;
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-top: 1.14rem;
+  padding-bottom: 1.22rem;
+  background-color: #040f28;
+  color: #c4c4c4;
+}
+
+header ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+header a {
+  color: #c4c4c4;
+}
+.nav_style {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+nav {
+  display: none;
+}
+.reg {
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    padding: 4.563rem 7.5rem 4.875rem;
+  }
+  header ul {
+    flex-direction: row;
+    gap: 3.125rem;
+  }
+  nav {
+    display: block;
+  }
+  .menu_icon {
+    display: none;
+  }
 }

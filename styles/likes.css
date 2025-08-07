@@ -1,0 +1,54 @@
+.likes_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: #ffffff;
+  padding: 2.5rem 0;
+}
+
+.likes_container h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+  color: #070707;
+}
+
+.likes_container h4 {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.5px;
+  color: #070707;
+}
+
+.likes_container h6 {
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: -0.5px;
+  color: #c4c4c4;
+}
+
+.likes_container {
+  text-align: center;
+}
+
+hr {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .likes_section {
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: center;
+    padding: 5.625rem 16.438rem 5.313rem;
+  }
+
+  hr {
+    display: block;
+    border: 1px solid #d8d8d8;
+    width: 5rem;
+    transform: rotate(-90deg);
+    margin: auto;
+  }
+}

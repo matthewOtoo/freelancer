@@ -1,0 +1,151 @@
+.all_packages {
+  background-color: #040f28;
+  padding: 5rem 1rem 10.75rem;
+}
+.packages_heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.packages_title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #ffffff;
+  width: 22.25rem;
+  margin-bottom: 2rem;
+}
+.package h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding-left: 1rem;
+  margin-top: 3.25rem;
+}
+.amount {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  padding-left: 1rem;
+}
+.amount span {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.first_package_p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding-left: 3.25rem;
+  padding-top: 1rem;
+}
+.second_package_p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-items: center;
+  gap: 0.5rem;
+}
+.third_package_p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-items: center;
+  gap: 0.5rem;
+}
+
+.package1_button {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #272727;
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5.438rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+}
+
+.package2_button {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #ffff;
+  border: 1px solid #fc3867;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5.438rem;
+  margin-top: 2.813rem;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+  background-color: #fc3867;
+}
+.package3_button {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #272727;
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5.438rem;
+  margin-top: 0.813rem;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+}
+.packages_card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 0 3rem;
+}
+.package {
+  border: 1px solid black;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .packages_title {
+    font-size: 2.5rem;
+    margin: 0 25rem 4.438rem;
+    width: 32rem;
+  }
+  .package1_button {
+    padding: 0.8rem 1.5rem;
+    margin-top: 7rem;
+    margin-left: 3.5rem;
+    margin-bottom: 3.75rem;
+  }
+  .package2_button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 5.438rem;
+    margin-top: 4.563rem;
+    margin-left: 3.5rem;
+    margin-bottom: 3.75rem;
+  }
+  .package3_button {
+    padding: 0.8rem 1.5rem;
+    margin-top: 2.563rem;
+    margin-left: 3.5rem;
+    margin-bottom: 3.75rem;
+  }
+  .packages_card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 0 14.375rem;
+  }
+}
