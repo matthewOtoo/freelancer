@@ -1,5 +1,5 @@
 footer {
-  background-color: #040f28;
+  /* background-color: #040f28; */
 }
 
 .main {
@@ -43,7 +43,7 @@ footer {
 
 .footer_black_background {
   background-color: #070707;
-  margin-left: 1.375rem;
+  /* margin-left: 1.375rem; */
 }
 
 .footer_black_background hr {
