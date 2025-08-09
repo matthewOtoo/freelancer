@@ -2,6 +2,12 @@
   background-color: #040f28;
   padding: 4rem 1rem;
 }
+.ceative_text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .creative_sentence1 {
   font-family: "Ubuntu", sans-serif;
@@ -31,8 +37,7 @@
 @media screen and (min-width: 1200px) {
   .creative_sentence2 {
     font-size: 0.875rem;
-    width: 26.063rem;
-    margin-left: 20rem;
+    max-width: 26.063rem;
   }
   .creative_unnsplash {
     grid-template-columns: repeat(2, 1fr);
