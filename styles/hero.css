@@ -5,6 +5,11 @@
   padding: 3.75rem 1.5rem 0;
   background-color: #040f28;
 }
+.hero_text{
+  order: 2;
+  padding-bottom: 1rem;
+}
+
 .hero_text h1 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
@@ -29,6 +34,7 @@
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
+  width: 100%;
 }
 .hero_image img {
   width: 100%;
@@ -39,21 +45,33 @@
   .hero_text h1 {
     font-size: 3.5rem;
   }
+  
   .hero_text p {
     margin-bottom: 2.5rem;
     line-height: 2rem;
   }
+
   .hero_image img {
     border-radius: 0;
   }
+
   .hero {
     flex-direction: row;
     padding: 3.75rem 8.813rem 0;
     gap: 7.188rem;
   }
+
   .hero_text {
     align-content: center;
     padding-bottom: 5rem;
     max-width: 400px;
   }
+
+  .hero_text button {
+    width: 50%;
+  }
+
+  .hero_text{
+  order: -1;
+}
 }

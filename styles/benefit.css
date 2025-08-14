@@ -14,6 +14,7 @@
   letter-spacing: -0.5px;
   padding: 0rem 1.9rem;
   padding-top: 5rem;
+  padding-bottom: 1rem;
 }
 
 .second_sentence {
@@ -42,6 +43,7 @@
 .icon_2,
 .icon_3 {
   display: flex;
+  flex-direction: column;
   gap: 0.188rem;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
@@ -63,12 +65,18 @@ hr {
 @media screen and (min-width: 1200px) {
   .benefit {
     background-color: #040f28;
-    padding: 0rem 7.375rem;
+    padding: 0rem 6.375rem;
   }
 
   .services {
     flex-direction: row;
   }
+
+  .icon_1,
+.icon_2,
+.icon_3 {
+  flex-direction: row;
+}
   .second_sentence {
     font-style: bold;
     font-weight: 700;
@@ -78,7 +86,7 @@ hr {
   }
   .third_sentence {
     font-weight: 400;
-    font-family: ubuntu, sans-serif;
+    font-family: "ubuntu", sans-serif;
     font-size: 1rem;
     color: #ffffff;
     padding: 1.9rem;

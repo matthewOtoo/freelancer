@@ -39,16 +39,20 @@ hr {
 @media screen and (min-width: 1200px) {
   .likes_section {
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 2rem;
     justify-content: center;
-    padding: 5.625rem 16.438rem 5.313rem;
+    padding: 5.625rem 12.438rem 5.313rem;
   }
 
   hr {
     display: block;
     border: 1px solid #d8d8d8;
-    width: 5rem;
     transform: rotate(-90deg);
     margin: auto;
+    transform-origin: center;
+    width: 3rem;
+    height: 0;
+    padding: 0;
+    box-sizing: content-box;
   }
 }

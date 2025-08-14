@@ -19,6 +19,11 @@ header ul {
 header a {
   color: #c4c4c4;
 }
+
+nav a:hover {
+  cursor: pointer;
+  color: #ffff;
+}
 .nav_style {
   font-family: "ubuntu", sans-serif;
   font-weight: 500;

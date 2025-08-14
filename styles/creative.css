@@ -35,6 +35,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .creative_sentence1{
+    font-size: 2.5rem;
+  }
   .creative_sentence2 {
     font-size: 0.875rem;
     max-width: 26.063rem;
