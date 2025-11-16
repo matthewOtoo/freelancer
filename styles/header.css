@@ -1,0 +1,101 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-top: 1.14rem;
+  padding-bottom: 1.22rem;
+  background-color: #040f28;
+  color: #c4c4c4;
+}
+.logo h3{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #C4C4C4;
+}
+
+header ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+header a {
+  color: #c4c4c4;
+}
+
+nav a:hover {
+  cursor: pointer;
+  color: #ffff;
+}
+.nav_style {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+nav {
+  display: none;
+}
+
+
+.reg {
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+/* Mobile toggle effect */
+@media screen and (max-width: 1199px) {
+  nav {
+    display: none; /* hidden by default */
+  }
+
+  nav.nav_active {
+    display: block; /* shown when menu_icon clicked */
+    animation: slideDown 0.3s ease forwards;
+  }
+
+  /* Optional: dropdown look */
+  nav ul {
+    flex-direction: column;
+    background-color: #040f28;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+}
+
+/* Animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  header {
+    padding: 4.563rem 7.5rem 4.875rem;
+  }
+  header ul {
+    flex-direction: row;
+    gap: 3.125rem;
+  }
+  nav {
+    display: block;
+  }
+  .menu_icon {
+    display: none;
+  }
+}
